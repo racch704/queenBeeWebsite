@@ -1,0 +1,18 @@
+body {
+    background-color: salmon;
+}
+
+#mainNav {
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: coral;
+}
+
+#mainNav .nav-item {
+    color: plum;
+}
+
+#mainNav .nav-item:hover {
+    color: blueviolet;
+}
+
