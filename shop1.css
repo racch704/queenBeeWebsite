@@ -86,17 +86,22 @@ body{
     color: #FFCF30;
 }
 
+/*** SHOP INFO ***/
+
+.newsletter-offer {
+    padding-top: 1em;
+}
 
 /*** SHOP PRODUCTS ***/
 
 .products {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5em;
     letter-spacing: .1em;
 }
 
-.rowitems {
-    margin-top: 1.8em;
+.product-bottom {
+    padding-bottom: 5em;
 }
 
 .productimg {
@@ -117,6 +122,15 @@ body{
     font-size: 1.5em;
     font-weight: bold;
 }
+
+.buy {
+    font-size: 1.5em;
+}
+
+
+
+
+
 
 /*** FOOTER ***/
 
