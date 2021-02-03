@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: letters;
-    src: url(./font/letters.ttf);
+    src: url(font/letters.ttf);
   }
 
 
@@ -160,7 +160,7 @@ body{
 }
 
 .deal {
-    padding-top: .75em;
+    padding-top: 1.7em;
 }
 
 /*** FACTS IMG ***/
@@ -170,7 +170,8 @@ body{
 }
 
 .honeyfacts {
-    padding-top: 7em;
+    padding-top: 10em;
+    height: 55vw;
 }
 
 /*** TOURISM ***/
