@@ -2,16 +2,11 @@
     margin: 0%;
     padding: 0%;
 }
-
 @font-face {
     font-family: letters;
     src: url(./font/letters.ttf);
   }
-
-
-
 body{
-    background: white;
     overflow-x: hidden;
     font-family: letters, sans-serif;
 }
@@ -74,16 +69,22 @@ body{
         white-space: nowrap;
     }
 }
-
 #mainNav .nav-link {
     font-size: 2em;
     color: white;
     letter-spacing: .15em;
     font-family: letters;
 }
-
 #mainNav .nav-link:hover {
     color: #FFCF30;
+}
+/*** HEADING ***/
+
+.heading {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 5em;
 }
 
 
@@ -100,7 +101,7 @@ body{
     height: 50em;
 }
 
-
+/*** ABOUT CAFE ***/
 
 .about-cafe {
     padding-top: 1.7em;

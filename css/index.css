@@ -2,14 +2,10 @@
     margin: 0%;
     padding: 0%;
 }
-
 @font-face {
     font-family: letters;
     src: url(./font/letters.ttf);
   }
-
-
-
 body{
     background: white;
     overflow-x: hidden;
@@ -67,6 +63,14 @@ body{
     overflow: hidden;
 }
 
+@media (min-width: 992px){
+    .navbar-nav li {
+        margin-left : 2em;
+        margin-right : 2em;
+        white-space: nowrap;
+    }
+}
+
 #mainNav .nav-link {
     font-size: 2em;
     color: white;
@@ -78,13 +82,6 @@ body{
     color: #FFCF30;
 }
 
-@media (min-width: 992px){
-    .navbar-nav li {
-        margin-left : 2em;
-        margin-right : 2em;
-        white-space: nowrap;
-    }
-}
 
 /*** FACILITIES ***/
 
@@ -118,7 +115,7 @@ body{
 
 
 .aboutus {
-    margin-top: 10em;
+    margin-top: 7em;
     color: black;
 }
 .teampic {
@@ -127,53 +124,63 @@ body{
 }
 
 .text-justify {
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1.2;
+}
+
+/*** BEES IMG ***/
+
+.bees {
+    padding-top: 3em;
+    height: 20vw;
 }
 
 /*** ***/
 
-.course-info {
+.words {
     font-size: 2em;
     text-align: center;
-    padding-bottom: 2em;
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
 /*** FACTS IMG ***/
 
-.facts {
-    padding-top: 3em;
-}
-
 .honeyfacts {
-    padding-top: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     height: 60vw;
 }
 
 /*** TOURISM ***/
 
 .tourism1 {
-    margin-top: 10em;
+    margin-top: 5em;
 }
 
 .h1main {
     text-align: center;
     letter-spacing: .09em;
-    padding-bottom: 0;
+    padding-bottom: .5em;
     font-size: 3em;
     font-weight: bold;
 }
 
 .tourism1 p {
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 1.3em;
     font-size: 2em;
 }
 
-.tourism2 {
-    padding: 2%;
+.abbey-img {
+    padding-bottom: 2em;
 }
+.walks-img {
+    padding-bottom: 2em;
+}
+.william-img {
+    padding-bottom: 2em;
+}
+
 
 /*** FOOTER ***/
 
@@ -288,11 +295,6 @@ footer {
 /*** MEDIA QUERIES ***/
 
 @media (max-width: 992px){
-    .navbar-nav li {
-        margin-left : 2em;
-        margin-right : 2em;
-        white-space: nowrap;
-    }
     #facilities p {
         line-height: 1.6;
     }
