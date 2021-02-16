@@ -6,9 +6,12 @@
     font-family: letters;
     src: url(./font/letters.ttf);
   }
+  html, body {
+      overflow-x: hidden;
+  }
 body{
     background: white;
-    overflow-x: hidden;
+    position: relative;
     font-family: letters, sans-serif;
 }
 
