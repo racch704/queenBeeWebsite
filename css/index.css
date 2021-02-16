@@ -67,14 +67,6 @@ body{
     overflow: hidden;
 }
 
-@media (min-width: 992px){
-    .navbar-nav li {
-        margin-left : 2em;
-        margin-right : 2em;
-        white-space: nowrap;
-    }
-}
-
 #mainNav .nav-link {
     font-size: 2em;
     color: white;
@@ -84,6 +76,14 @@ body{
 
 #mainNav .nav-link:hover {
     color: #FFCF30;
+}
+
+@media (min-width: 992px){
+    .navbar-nav li {
+        margin-left : 2em;
+        margin-right : 2em;
+        white-space: nowrap;
+    }
 }
 
 /*** FACILITIES ***/
@@ -131,33 +131,13 @@ body{
     line-height: 1.2;
 }
 
-/*** FEATURED ***/
+/*** ***/
 
-.h1s {
-    font-size: 3.7em;
-    font-weight: bold;
-}
-
-.featured h1 {
+.course-info {
+    font-size: 2em;
     text-align: center;
-}
-
-.featured1 {
-    padding: 0%;
-    margin: auto;
-}
-
-.featured {
-    margin-top: 10em;
-    text-align: center;
-}
-
-.shaddow {
-    -webkit-filter: drop-shadow(0px 5px 20px rgb(131, 131, 131));
-}
-
-.deal {
-    padding-top: 1.7em;
+    padding-bottom: 2em;
+    padding-top: 5em;
 }
 
 /*** FACTS IMG ***/
@@ -168,7 +148,7 @@ body{
 
 .honeyfacts {
     padding-top: 10em;
-    height: 100vw;
+    height: 60vw;
 }
 
 /*** TOURISM ***/
@@ -307,16 +287,23 @@ footer {
 
 /*** MEDIA QUERIES ***/
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 992px){
+    .navbar-nav li {
+        margin-left : 2em;
+        margin-right : 2em;
+        white-space: nowrap;
+    }
+    #facilities p {
+        line-height: 1.6;
+    }
     #facilities h1 {
         margin: auto;
         white-space: nowrap;
         font-size: 2em;
     }
-}
-
-@media only screen and (max-width: 991px) {
-    #facilities p {
-        line-height: 1.6;
+    .honeyfacts {
+        height: 100vw;
+        padding: 0%;
+        margin: 0%;
     }
 }
