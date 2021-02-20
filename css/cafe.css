@@ -250,4 +250,8 @@ footer {
     #bh {
         height: 30vh;
     }
+    #logo {
+        height: auto;
+        width: 25vw;
+    }
 }
