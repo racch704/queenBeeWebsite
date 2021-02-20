@@ -6,9 +6,7 @@
     font-family: letters;
     src: url(./font/letters.ttf);
   }
-html, body {
-overflow-x: hidden;
-}
+
 body{
    position: relative;
     font-family: letters, sans-serif;
@@ -41,7 +39,7 @@ body{
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: auto;
+    height:  auto;
 }
 
 #logo {
@@ -99,9 +97,6 @@ body{
     margin-left: auto;
     padding-top: 3em;
 }
-
-
-
 /*** ABOUT ***/
 
 .about-cafe {
@@ -236,4 +231,23 @@ footer {
 
 .info {
     padding-top: 2em;
+}
+
+@media (max-width: 992px){
+    .coffee-info {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .about {
+        padding-top: 4em;
+    }
+    .menu {
+        padding-bottom: 4em;
+    }
+}
+
+@media (max-width: 800px){
+    #bh {
+        height: 30vh;
+    }
 }

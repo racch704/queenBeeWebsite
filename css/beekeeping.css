@@ -6,13 +6,12 @@
     font-family: letters;
     src: url(./font/letters.ttf);
   }
-html, body {
-    overflow-x: hidden;
-}
+
 body{
     background: white;
     position: relative;
     font-family: letters, sans-serif;
+    overflow-x: hidden;
 }
 /*** HEADER ***/
 
@@ -39,7 +38,7 @@ body{
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: 57vh;
+    height: 76.5vh;
 }
 #logo {
     position: absolute;
@@ -202,4 +201,9 @@ footer {
 }
 .info {
     padding-top: 2em;
+}
+@media (max-width: 800px){
+    #bh {
+        height: 30vh;
+    }
 }

@@ -6,15 +6,11 @@
     font-family: letters;
     src: url(./font/letters.ttf);
   }
-  html, body {
-      overflow-x: hidden;
-  }
 body{
     background: white;
     position: relative;
     font-family: letters, sans-serif;
 }
-
 /*** HEADER ***/
 
 #header {
@@ -42,7 +38,7 @@ body{
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: 73vh;
+    height: 75.6vh;
 }
 
 #logo {
@@ -131,11 +127,6 @@ body{
 .buy {
     font-size: 1.5em;
 }
-
-
-
-
-
 
 /*** FOOTER ***/
 
@@ -245,4 +236,10 @@ footer {
 
 .info {
     padding-top: 2em;
+}
+
+@media (max-width: 800px){
+    #bh {
+        height: 30vh;
+    }
 }
