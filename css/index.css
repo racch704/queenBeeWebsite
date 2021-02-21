@@ -136,14 +136,19 @@ body{
     height: 20vw;
 }
 
-/*** ***/
+/*** THE BUZZ ***/
 
 .words {
     font-size: 2em;
     text-align: center;
     padding-top: 3em;
 }
-
+a {
+    color: rgb(25, 230, 25);
+}
+a:hover{
+    color: rgb(4, 184, 4);
+}
 /*** FACTS IMG ***/
 
 .honeyfacts {
@@ -310,10 +315,15 @@ footer {
         margin: 0%;
     }
     .bees {
-        width: 100vw;
-        height: 100vh;
+        width: 60vw;
+        height: 20vh;
     }
+    .words {
+        padding-top: 2em;
+    }
+
 }
+
 @media (max-width: 800px){
     #bh {
         height: 30vh;
