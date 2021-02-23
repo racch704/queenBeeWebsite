@@ -131,7 +131,7 @@ a {
 a:hover {
     text-decoration: none;
     color: #fff;
-    font-size: 1.09em;
+    font-weight: 700;
 }
 
 /*** FOOTER ***/
