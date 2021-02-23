@@ -104,12 +104,12 @@ body{
     color: #0c7f90;
     font-size: 1.3em;
     margin-top: auto;
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .card-body a:hover {
-    color: #63a6b0;
-    font-size: 1.5em;
+    color: #086574;
+    font-weight: 800;
 }
 
 /*** ABOUT US ***/

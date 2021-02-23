@@ -129,7 +129,9 @@ a {
     color: black;
 }
 a:hover {
-    text-underline: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.09em;
 }
 
 /*** FOOTER ***/
