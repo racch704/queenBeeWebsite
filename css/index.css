@@ -137,7 +137,9 @@ body{
 }
 
 /*** THE BUZZ ***/
-
+h2 {
+    font-size: 2em;
+}
 .words {
     font-size: 2em;
     text-align: center;
@@ -297,14 +299,16 @@ footer {
 .info {
     padding-top: 2em;
 }
-
+.number a {
+    color: #FFCF30;
+}
 /*** MEDIA QUERIES ***/
 
 @media (max-width: 992px){
     #facilities p {
         line-height: 1.6;
     }
-    #facilities h1 {
+    #facilities h2 {
         margin: auto;
         white-space: nowrap;
         font-size: 2em;

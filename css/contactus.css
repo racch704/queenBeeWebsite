@@ -78,7 +78,7 @@ body{
     letter-spacing: .15em;
     font-family: letters;
 }
-#mainNav .nav-link:hover {
+#mainNav .nav-item :hover {
     color: #FFCF30;
 }
 /*** HEADING ***/
@@ -86,11 +86,14 @@ body{
 .heading {
     font-size: 2em;
     text-align: center;
-    padding-bottom: 2em;
     padding-top: 5em;
 }
 
 /*** MAP ***/
+
+.card {
+    box-shadow: 0 0 10px 5px rgb(131, 131, 131);
+}
 .head {
     background: #ffcf30;
     border-radius: 5px;
@@ -135,6 +138,11 @@ body{
     height: 40px;
     width: 140px;
     cursor: pointer;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 10px 5px rgb(131, 131, 131);
 }
 .form p {
     font-size: 1.5em;
@@ -288,10 +296,13 @@ footer {
     color: white;
     padding: .34em .23em;
 }
-
+.segment-three a {
+    color: #FFCF30;
+}
 .info {
     padding-top: 2em;
 }
+
 
 @media (max-width: 992px){
     .deal-text{

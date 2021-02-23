@@ -195,7 +195,9 @@ footer {
     letter-spacing: .02em;
     font-size: 1.5em;
 }
-
+.segment-three a {
+    color: #FFCF30;
+}
 .social-media a .icon1 {
     background: #3B5998;
     width: 40px;
