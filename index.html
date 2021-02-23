@@ -83,7 +83,6 @@
     </div>
 </section>
 
-
 <div class="container">
     <div class="row aboutus">
         <div class="col-lg-6 pb-5"> 
@@ -98,7 +97,6 @@
     </div>
 </div>
 
-
 <div class="container">
     <img class="img-fluid mx-auto d-block bees" src="img/home/bees.png" alt="honey facts"/>
 </div>
@@ -112,7 +110,6 @@
         browse through our website or feel free to <a href="contactus.html"> get in touch</a> with us!
     </p>
 </div>
-
 
 <div class="container">
     <img class="img-fluid honeyfacts shaddow mx-auto d-block" src="img/home/factspreview.png" alt="honey facts"/>
@@ -170,21 +167,18 @@
 
 <img class="img-fluid footer-img" src="img/footer-final.png" alt="footer image">
 
-
 <footer>
 
     <div class="wrapper">
         <h3 class="h3s">Subscribe to our Newsletter</h3>
         <p class="ps">And recieve 10% off your first order in our shop!</p>
         <div class="newsletter">
-            <form>
-                <input type="text" class="input" placeholder="Enter Your Email">
-                <div class="btn">SUBSCRIBE</div>
+            <form name="subscribe" method="POST" data-netlify="true">
+                <input type="email" class="input" name="email" placeholder="Enter Your Email">
+                <button class="btn" type="submit" value="subscribe">SUBSCRIBE</button>
             </form>
         </div>
-    </div>		
-
-
+    </div>			
 
     <div class="social-media">
         <h3 class="h3s">Follow Us</h3>

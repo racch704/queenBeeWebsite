@@ -69,39 +69,39 @@
                                 </div>
                             </div>
                         </div>
- 
-                        <div class="form p-3">
+ <!--p-3  <div class="col-lg-6">
+                                    <p> <input type="checkbox" > I'm Not a Robot</p>
+                                </div>-->
+                        <form name="contact" method="POST" data-netlify="true">
                             <div class="form-row pb-4">
                                 <div class="col-lg-12">
-                                    <input type="text" class="effect-1" placeholder="Full Name">
+                                    <input type="text" name="name" class="effect-1" placeholder="Full Name">
                                     <span class="Focus-border"></span>
                                 </div>
                             </div>
                             <div class="form-row pb-4">
                                 <div class="col-lg-12">
-                                    <input type="email" class="effect-1" placeholder="Email Address">
+                                    <input type="email" name="email" class="effect-1" placeholder="Email Address">
                                     <span class="Focus-border"></span>
                                 </div>
                             </div>
                             <div class="form-row pb-4">
                                 <div class="col-lg-12">
-                                    <input type="text" class="effect-1" placeholder="Subject">
+                                    <input type="text" name="subject" class="effect-1" placeholder="Subject">
                                     <span class="Focus-border"></span>
                                 </div>
                             </div>
                             <div class="form-row pt-5">
                                 <div class="col-lg-12">
-                                    <input type="text" class="effect-1" placeholder="Your Message">
+                                    <input type="text" name="message" class="effect-1" placeholder="Your Message">
                                     <span class="Focus-border"></span>
                                 </div>
                             </div>
-                            <div class="form-row pt-4">
-                                <div class="col-lg-6">
-                                    <p> <input type="checkbox"> I'm Not a Robot</p>
+                            <div class="form-row pt-4 field">
+                                <div data-netlify-recaptcha="true">
                                 </div>
-                         
                             <div class="offset-2 col-lg-4">
-                                <button class="btn1">Send</button>
+                                <button class="btn1" type="submit">Send</button>
                             </div>
                             </div>
                         </div>
@@ -152,9 +152,9 @@
         <h3 class="h3s">Subscribe to our Newsletter</h3>
         <p class="ps">And recieve 10% off your first order in our shop!</p>
         <div class="newsletter">
-            <form>
-                <input type="text" class="input" placeholder="Enter Your Email">
-                <div class="btn sub">SUBSCRIBE</div>
+            <form name="subscribe" method="POST" data-netlify="true">
+                <input type="email" class="input" name="email" placeholder="Enter Your Email">
+                <button class="btn" type="submit" value="subscribe">SUBSCRIBE</button>
             </form>
         </div>
     </div>		

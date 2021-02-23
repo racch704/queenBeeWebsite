@@ -155,12 +155,12 @@
         <h3 class="h3s">Subscribe to our Newsletter</h3>
         <p class="ps">And recieve 10% off your first order in our shop!</p>
         <div class="newsletter">
-            <form>
-                <input type="text" class="input" placeholder="Enter Your Email">
-                <div class="btn">SUBSCRIBE</div>
+            <form name="subscribe" method="POST" data-netlify="true">
+                <input type="email" class="input" name="email" placeholder="Enter Your Email">
+                <button class="btn" type="submit" value="subscribe">SUBSCRIBE</button>
             </form>
         </div>
-    </div>		
+    </div>			
 
 
 
