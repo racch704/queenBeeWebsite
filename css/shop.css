@@ -6,11 +6,12 @@
     font-family: letters;
     src: url(./font/letters.ttf);
   }
+
 body{
-    background: white;
-    position: relative;
+   position: relative;
     font-family: letters, sans-serif;
 }
+
 /*** HEADER ***/
 
 #header {
@@ -38,7 +39,7 @@ body{
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: 75.6vh;
+    height:  auto;
 }
 
 #logo {
@@ -61,7 +62,6 @@ body{
     background: rgb(41, 41, 41);
     overflow: hidden;
 }
-
 @media (min-width: 992px){
     .navbar-nav li {
         margin-left : 2em;
@@ -76,11 +76,9 @@ body{
     letter-spacing: .15em;
     font-family: letters;
 }
-
 #mainNav .nav-link:hover {
     color: #FFCF30;
 }
-
 /*** SHOP INFO ***/
 
 .newsletter-offer {
@@ -188,17 +186,14 @@ footer {
 .social-media {
     padding-top: 1em;
 }
-
 .h3s {
     letter-spacing: .04em;
     font-size: 2em;
 }
-
 .ps {
     letter-spacing: .02em;
     font-size: 1.5em;
 }
-
 .social-media a .icon1 {
     background: #3B5998;
     width: 40px;
@@ -227,7 +222,6 @@ footer {
     display: inline-block;
     border-radius: 50%;
 }
-
 .social-media a i {
     font-size: 1.5em;
     color: white;
@@ -237,7 +231,6 @@ footer {
 .info {
     padding-top: 2em;
 }
-
 @media (max-width: 800px){
     #bh {
         height: 30vh;
